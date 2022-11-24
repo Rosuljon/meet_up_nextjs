@@ -1,3 +1,4 @@
+import Layout from '../../components/layout/Layout';
 import NewMeetupForm from '../../components/meetups/NewMeetupForm';
 
 const NewMeetUp = () => {
@@ -5,7 +6,7 @@ const NewMeetUp = () => {
         console.log(data);
     }
   return (
-    <NewMeetupForm onAddMeetup={addMeetupHandler} />
+        <NewMeetupForm onAddMeetup={addMeetupHandler} />
   )
 }
 
